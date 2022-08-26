@@ -5,8 +5,12 @@ from django.shortcuts import render
 
 def home(request):
      
-     return render(request,"users/home.html")
+     return render(request,"users/content.html")
 
 def login(request):
      
      return render(request,"users/login.html")     
+
+def about(request):
+    
+    return render(request,"users/profile.html")
